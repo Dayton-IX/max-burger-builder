@@ -3,6 +3,7 @@ import Aux from '../../../hoc/Auxilliary';
 import Button from '../../UI/Button/Button';
 
 class OrderSummary extends Component {
+    //* Could also be a functional component if not using lifecycle hooks
     componentDidUpdate() {
         console.log('[OrderSummary.js] componentDidUpdate');
     }
